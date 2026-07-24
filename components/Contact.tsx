@@ -44,7 +44,7 @@ export function Contact() {
                 href={`mailto:${profile.email}?subject=${encodeURIComponent("Résumé request from your portfolio")}`}
                 className="mt-8 inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium glass text-ink hover:border-blue/40 transition-colors"
               >
-                Request résumé <ArrowUpRight size={16} />
+                Request resume <ArrowUpRight size={16} />
               </a>
             </div>
 
