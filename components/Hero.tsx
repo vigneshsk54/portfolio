@@ -33,7 +33,7 @@ export function Hero() {
               <span className="animate-pulse-soft absolute inline-flex h-full w-full rounded-full bg-signal opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-signal" />
             </span>
-            {profile.status.toUpperCase()} — {profile.location.toUpperCase()}
+            {/* {profile.status.toUpperCase()} — {profile.location.toUpperCase()} */}
           </motion.p>
 
           <motion.h1
