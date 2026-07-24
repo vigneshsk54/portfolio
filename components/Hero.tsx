@@ -29,10 +29,10 @@ export function Hero() {
             variants={item}
             className="font-mono text-xs tracking-widest text-blue-soft mb-6 flex items-center gap-2"
           >
-            <span className="relative flex h-2 w-2">
+            {/* <span className="relative flex h-2 w-2">
               <span className="animate-pulse-soft absolute inline-flex h-full w-full rounded-full bg-signal opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-signal" />
-            </span>
+            </span> */}
             {/* {profile.status.toUpperCase()} — {profile.location.toUpperCase()} */}
           </motion.p>
 
