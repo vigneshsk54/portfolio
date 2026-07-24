@@ -48,7 +48,7 @@ export function Contact() {
               </a>
             </div>
 
-            <motion.form
+            {/* <motion.form
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -86,7 +86,7 @@ export function Contact() {
               >
                 Send message <ArrowUpRight size={16} />
               </button>
-            </motion.form>
+            </motion.form> */}
           </div>
         </div>
       </div>
