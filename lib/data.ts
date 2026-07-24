@@ -10,6 +10,7 @@ export const profile = {
   name: "Vignesh Kumar S",
   initials: "VK",
   title: "Full Stack & AI Engineer",
+  location: "Coimbatore, Tamil Nadu, India",
   status: "Open to opportunities",
   summary:
     "Final-year Computer Science Engineering student building production-grade full-stack systems and AI-integrated platforms. Published researcher in phishing detection, with real client work shipped before graduating.",
