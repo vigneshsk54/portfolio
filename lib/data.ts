@@ -375,6 +375,49 @@ export const projects: Project[] = [
     ],
     links: { github: "https://github.com/vigneshsk54" },
   },
+  {
+  slug: "taskflow-desktop",
+  title: "TaskFlow Desktop",
+  tagline: "Cross-platform task manager — Electron.js + React.js + SQLite",
+  description:
+    "A cross-platform desktop application for task and notes management with full offline support, built with Electron.js, React.js, Node.js, and SQLite for secure local data storage.",
+  category: "Desktop / Full Stack",
+  year: "2026",
+  role: "Solo developer — architecture, UI, packaging",
+  status: "Completed",
+  stack: ["Electron.js", "React.js", "Node.js", "SQLite"],
+  features: [
+    "Full CRUD operations for tasks and notes, all stored locally via SQLite.",
+    "Search and filtering to quickly surface relevant tasks across large lists.",
+    "Native desktop notifications to keep reminders visible outside the app window.",
+    "Fully functional offline — no network dependency for core task/notes management.",
+    "Responsive UI that adapts cleanly across different window sizes.",
+  ],
+  architecture: [
+    "React.js front end rendered inside an Electron shell for native window chrome and OS integration.",
+    "Node.js main process handling window management, notifications, and file-system-level access.",
+    "SQLite as the local database layer, keeping all task and notes data on-device.",
+    "Packaged and distributed as a native installer using Electron Builder.",
+  ],
+  challenges: [
+    {
+      problem: "Needed reliable local persistence without depending on any external server or internet connection.",
+      solution:
+        "Used SQLite as an embedded database, giving the app fast, secure local storage that works fully offline.",
+    },
+    {
+      problem: "Electron apps can easily balloon in size and complexity when packaging for multiple platforms.",
+      solution:
+        "Used Electron Builder to handle cross-platform packaging, keeping the build and distribution process consistent across OSes.",
+    },
+  ],
+  impact: [
+    "Delivers a fully offline-capable productivity tool, with no reliance on cloud storage or a constant connection.",
+    "Demonstrates desktop application development end to end — from Electron architecture to a packaged, installable build.",
+  ],
+  links: { github: "https://github.com/vigneshsk54" },
+  featured: true,
+},
 ];
 
 export const nav = [
