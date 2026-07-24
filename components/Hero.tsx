@@ -56,9 +56,9 @@ export function Hero() {
             <MagneticButton href="#projects">
               View projects <ArrowUpRight size={16} />
             </MagneticButton>
-            <MagneticButton href="#contact" variant="ghost">
+            {/* <MagneticButton href="#contact" variant="ghost">
               Get in touch
-            </MagneticButton>
+            </MagneticButton> */}
           </motion.div>
 
           <motion.div variants={item} className="mt-10 flex items-center gap-5">
