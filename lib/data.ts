@@ -113,7 +113,7 @@ export const experience: Experience[] = [
     company: "ILF Attorneys",
     role: "Full Stack Development Intern",
     period: "Dec 2025 — May 2026",
-    location: "Remote",
+    location: "Hybrid",
     points: [
       "Designed and built a responsive corporate legal website end to end, from component architecture to deployment.",
       "Shipped an attorney profile management system, giving the firm a structured way to present lawyer bios, specializations, and case history.",
@@ -125,7 +125,7 @@ export const experience: Experience[] = [
     company: "NoviTech R&D Pvt Ltd",
     role: "Full Stack Development Intern",
     period: "Aug 2025 — Nov 2025",
-    location: "On-site",
+    location: "Remote",
     points: [
       "Built and deployed full-stack features into a live production codebase using React.js and Node.js.",
       "Contributed to REST API development, working directly with the existing backend architecture and data models.",
@@ -137,7 +137,7 @@ export const experience: Experience[] = [
     company: "NoviTech R&D Pvt Ltd",
     role: "UI/UX Design Intern",
     period: "Aug 2025 — Nov 2025",
-    location: "On-site",
+    location: "Remote",
     points: [
       "Designed responsive user interfaces using Tailwind CSS, translating Figma prototypes into production markup.",
       "Ran usability reviews on existing product screens and turned findings into concrete interface improvements.",
