@@ -56,7 +56,7 @@ export function Hero() {
             <MagneticButton href="#projects">
               View projects <ArrowUpRight size={16} />
             </MagneticButton>
-            <MagneticButton href={profile.resume} download="Vignesh_Kumar_S.pdf">
+            <MagneticButton href={profile.resume} download="Vignesh_Kumar_S_CV.pdf">
               CV <ArrowUpRight size={16} />
             </MagneticButton>
             <MagneticButton href={profile.resume} download="Vignesh_Kumar_S.pdf">
