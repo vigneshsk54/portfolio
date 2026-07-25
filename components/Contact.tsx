@@ -41,7 +41,8 @@ export function Contact() {
               </div>
 
               <a
-                href={`mailto:${profile.email}?subject=${encodeURIComponent("Résumé request from your portfolio")}`}
+                href={profile.resume}
+                download="Vignesh_Kumar_S.pdf"
                 className="mt-8 inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium glass text-ink hover:border-blue/40 transition-colors"
               >
                 Resume <ArrowUpRight size={16} />

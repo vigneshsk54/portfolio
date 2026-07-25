@@ -7,12 +7,14 @@ import { cn } from "@/lib/utils";
 export function MagneticButton({
   children,
   className,
+  download,
   href,
   onClick,
   variant = "primary",
 }: {
   children: ReactNode;
   className?: string;
+  download?: string | boolean;
   href?: string;
   onClick?: () => void;
   variant?: "primary" | "ghost";
@@ -53,6 +55,7 @@ export function MagneticButton({
       <motion.a
         ref={ref as React.RefObject<HTMLAnchorElement>}
         href={href}
+        download={download}
         className={styles}
         {...motionProps}
       >
