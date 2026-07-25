@@ -57,10 +57,10 @@ export function Hero() {
               View projects <ArrowUpRight size={16} />
             </MagneticButton>
             <MagneticButton href="#projects">
-              Resume <ArrowUpRight size={16} />
+              CV <ArrowUpRight size={16} />
             </MagneticButton>
             <MagneticButton href="#projects">
-              Cv <ArrowUpRight size={16} />
+              Resume  <ArrowUpRight size={16} />
             </MagneticButton>
             {/* <MagneticButton href="#contact" variant="ghost">
               Get in touch
