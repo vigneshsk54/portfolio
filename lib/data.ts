@@ -20,6 +20,7 @@ export const profile = {
   phone: "+91 98434 44553",
   linkedin: "https://linkedin.com/in/vignesh-kumar-sundaram",
   github: "https://github.com/vigneshsk54",
+  cv: "/Vignesh_Kumar_S_CV.pdf",
   resume: "/Vignesh_Kumar_S.pdf",
 };
 
