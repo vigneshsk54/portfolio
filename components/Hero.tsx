@@ -56,6 +56,12 @@ export function Hero() {
             <MagneticButton href="#projects">
               View projects <ArrowUpRight size={16} />
             </MagneticButton>
+            <MagneticButton href="#projects">
+              View projects <ArrowUpRight size={16} />
+            </MagneticButton>
+            <MagneticButton href="#projects">
+              View projects <ArrowUpRight size={16} />
+            </MagneticButton>
             {/* <MagneticButton href="#contact" variant="ghost">
               Get in touch
             </MagneticButton> */}
