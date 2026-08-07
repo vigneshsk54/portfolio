@@ -35,7 +35,7 @@ export function About() {
         <div className="grid lg:grid-cols-[1fr_1fr] gap-16 items-start">
           <div>
             <SectionHeading
-              eyebrow="// ABOUT"
+              eyebrow=" ABOUT"
               title="Engineering with a research habit."
             />
             <motion.p
